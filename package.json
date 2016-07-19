@@ -1,0 +1,22 @@
+{
+  "name": "alexa_rank",
+  "version": "1.0.0",
+  "description": "A tool to compute the Alexa of URLs from a csv",
+  "main": "index.js",
+  "scripts": {
+    "run": "babel app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa"
+  ],
+  "author": "Scott King (https://github.com/kingscott)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "request": "^2.72.0",
+    "superagent": "^2.0.0"
+  },
+  "devDependencies": {}
+}
