@@ -3,7 +3,7 @@
 const fs = require('fs')
 const fetchAlexaRank = require('./src/fetchAlexaRank')
 
-const urls = fs.readFileSync('site3.txt', 'utf8').toString().split('\n')
+const urls = fs.readFileSync('urls.txt', 'utf8').toString().split('\n')
 let urlObjects = urls.map((e, i) => {
   return {
     index: i,
