@@ -1,6 +1,6 @@
 {
   "name": "alexa_rank",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tool to compute the Alexa of URLs from a csv",
   "main": "index.js",
   "scripts": {
